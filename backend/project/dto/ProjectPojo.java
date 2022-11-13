@@ -1,6 +1,7 @@
 package com.bugtracker.submodules.shared.backend.project.dto;
 
 import com.bugtracker.db.authoritity.domain.Authority;
+import com.bugtracker.submodules.shared.backend.authority.dto.AuthorityPojo;
 import lombok.Data;
 
 import java.util.List;
@@ -14,6 +15,6 @@ public class ProjectPojo {
 
     private String ownerUuid;
 
-    private List<Authority> authorities;
+    private List<AuthorityPojo> authorities;
 
 }
