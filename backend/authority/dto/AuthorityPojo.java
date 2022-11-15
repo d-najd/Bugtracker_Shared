@@ -18,7 +18,6 @@ public class AuthorityPojo implements MyCloneable<AuthorityPojo> {
     
     @Override
     public AuthorityPojo clone() {
-
         return builder()
                 .authority(authority)
                 .username(username)
